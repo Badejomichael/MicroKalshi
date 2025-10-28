@@ -58,7 +58,7 @@ export default function Footer() {
           }}
         >
           <Link
-            href="https://x.com/"
+            href="https://x.com/emperormikel_"
             target="_blank"
             rel="noopener noreferrer"
             className="hover-icon"
@@ -67,7 +67,7 @@ export default function Footer() {
             <FaXTwitter />
           </Link>
           <Link
-            href="https://github.com/"
+            href="https://github.com/Badejomichael/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover-icon"
@@ -91,3 +91,4 @@ export default function Footer() {
     </motion.footer>
   );
 }
+
