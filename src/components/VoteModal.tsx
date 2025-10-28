@@ -18,7 +18,7 @@ export default function VoteModal({ open, onClose, marketQuestion, choice }: Pro
     if (open) setStage("preview");
   }, [open]);
 
-  const fakePrice = choice === "yes" ? "0.62" : "0.38";
+  const fakePrice = choice === "yes" ? "20" : "15";
   const fakeQuantity = "10";
 
   useEffect(() => {
@@ -148,3 +148,4 @@ export default function VoteModal({ open, onClose, marketQuestion, choice }: Pro
     </>
   );
 }
+
